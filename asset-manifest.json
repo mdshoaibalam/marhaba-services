@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/marhaba-services/static/css/main.523f09c5.chunk.css",
-    "main.js": "/marhaba-services/static/js/main.0eb0b6cb.chunk.js",
-    "main.js.map": "/marhaba-services/static/js/main.0eb0b6cb.chunk.js.map",
-    "runtime-main.js": "/marhaba-services/static/js/runtime-main.7fc49274.js",
-    "runtime-main.js.map": "/marhaba-services/static/js/runtime-main.7fc49274.js.map",
-    "static/js/2.7952f39c.chunk.js": "/marhaba-services/static/js/2.7952f39c.chunk.js",
-    "static/js/2.7952f39c.chunk.js.map": "/marhaba-services/static/js/2.7952f39c.chunk.js.map",
-    "index.html": "/marhaba-services/index.html",
-    "precache-manifest.7d3e95f6d99f6f2914cf48ff83a92259.js": "/marhaba-services/precache-manifest.7d3e95f6d99f6f2914cf48ff83a92259.js",
-    "service-worker.js": "/marhaba-services/service-worker.js",
-    "static/css/main.523f09c5.chunk.css.map": "/marhaba-services/static/css/main.523f09c5.chunk.css.map",
-    "static/js/2.7952f39c.chunk.js.LICENSE.txt": "/marhaba-services/static/js/2.7952f39c.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/marhaba-services/static/media/logo.ee7cd8ed.svg"
+    "main.css": "/static/css/main.523f09c5.chunk.css",
+    "main.js": "/static/js/main.7bdd3c32.chunk.js",
+    "main.js.map": "/static/js/main.7bdd3c32.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.d7abf94d.js",
+    "runtime-main.js.map": "/static/js/runtime-main.d7abf94d.js.map",
+    "static/js/2.7952f39c.chunk.js": "/static/js/2.7952f39c.chunk.js",
+    "static/js/2.7952f39c.chunk.js.map": "/static/js/2.7952f39c.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.edbc5c4c19b1b27663ff9acbecc32259.js": "/precache-manifest.edbc5c4c19b1b27663ff9acbecc32259.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.523f09c5.chunk.css.map": "/static/css/main.523f09c5.chunk.css.map",
+    "static/js/2.7952f39c.chunk.js.LICENSE.txt": "/static/js/2.7952f39c.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/static/media/logo.ee7cd8ed.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.7fc49274.js",
+    "static/js/runtime-main.d7abf94d.js",
     "static/js/2.7952f39c.chunk.js",
     "static/css/main.523f09c5.chunk.css",
-    "static/js/main.0eb0b6cb.chunk.js"
+    "static/js/main.7bdd3c32.chunk.js"
   ]
 }
