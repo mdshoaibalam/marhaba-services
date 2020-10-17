@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/marhabaservices/static/css/main.5f361e03.chunk.css",
-    "main.js": "/marhabaservices/static/js/main.263d53b8.chunk.js",
-    "main.js.map": "/marhabaservices/static/js/main.263d53b8.chunk.js.map",
+    "main.css": "/marhabaservices/static/css/main.523f09c5.chunk.css",
+    "main.js": "/marhabaservices/static/js/main.e8622280.chunk.js",
+    "main.js.map": "/marhabaservices/static/js/main.e8622280.chunk.js.map",
     "runtime-main.js": "/marhabaservices/static/js/runtime-main.f8c04712.js",
     "runtime-main.js.map": "/marhabaservices/static/js/runtime-main.f8c04712.js.map",
     "static/js/2.7952f39c.chunk.js": "/marhabaservices/static/js/2.7952f39c.chunk.js",
     "static/js/2.7952f39c.chunk.js.map": "/marhabaservices/static/js/2.7952f39c.chunk.js.map",
     "index.html": "/marhabaservices/index.html",
-    "precache-manifest.404e11530a88cddd50462ab8470175fb.js": "/marhabaservices/precache-manifest.404e11530a88cddd50462ab8470175fb.js",
+    "precache-manifest.38ff2f01d74dccaa79e37ac0125d82c8.js": "/marhabaservices/precache-manifest.38ff2f01d74dccaa79e37ac0125d82c8.js",
     "service-worker.js": "/marhabaservices/service-worker.js",
-    "static/css/main.5f361e03.chunk.css.map": "/marhabaservices/static/css/main.5f361e03.chunk.css.map",
+    "static/css/main.523f09c5.chunk.css.map": "/marhabaservices/static/css/main.523f09c5.chunk.css.map",
     "static/js/2.7952f39c.chunk.js.LICENSE.txt": "/marhabaservices/static/js/2.7952f39c.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/marhabaservices/static/media/logo.5d5d9eef.svg"
+    "static/media/logo.svg": "/marhabaservices/static/media/logo.ee7cd8ed.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.f8c04712.js",
     "static/js/2.7952f39c.chunk.js",
-    "static/css/main.5f361e03.chunk.css",
-    "static/js/main.263d53b8.chunk.js"
+    "static/css/main.523f09c5.chunk.css",
+    "static/js/main.e8622280.chunk.js"
   ]
 }

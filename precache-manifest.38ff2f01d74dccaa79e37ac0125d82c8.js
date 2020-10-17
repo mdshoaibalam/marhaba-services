@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "96471c0e4ca4713aa8de8eb6d1c34917",
+    "revision": "34ddbaf44d0648333af5cfc3a5bb2437",
     "url": "/marhabaservices/index.html"
   },
   {
-    "revision": "8e5e54dd107f9808e1ee",
-    "url": "/marhabaservices/static/css/main.5f361e03.chunk.css"
+    "revision": "9f9b1025350fd43f6236",
+    "url": "/marhabaservices/static/css/main.523f09c5.chunk.css"
   },
   {
     "revision": "772bb65abd9876eab797",
@@ -16,15 +16,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/marhabaservices/static/js/2.7952f39c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8e5e54dd107f9808e1ee",
-    "url": "/marhabaservices/static/js/main.263d53b8.chunk.js"
+    "revision": "9f9b1025350fd43f6236",
+    "url": "/marhabaservices/static/js/main.e8622280.chunk.js"
   },
   {
     "revision": "6a7d246503f5824e2ed1",
     "url": "/marhabaservices/static/js/runtime-main.f8c04712.js"
   },
   {
-    "revision": "5d5d9eefa31e5e13a6610d9fa7a283bb",
-    "url": "/marhabaservices/static/media/logo.5d5d9eef.svg"
+    "revision": "ee7cd8ed2dcec943251eb2763684fc6f",
+    "url": "/marhabaservices/static/media/logo.ee7cd8ed.svg"
   }
 ]);

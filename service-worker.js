@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/marhabaservices/precache-manifest.404e11530a88cddd50462ab8470175fb.js"
+  "/marhabaservices/precache-manifest.38ff2f01d74dccaa79e37ac0125d82c8.js"
 );
 
 self.addEventListener('message', (event) => {
