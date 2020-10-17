@@ -1,0 +1,13 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './App';
+import "./css/animate.css";
+import "./css/icomoon.css";
+import "./css/bootstrap.css";
+import  "./css/superfish.css";
+import "./css/magnific-popup.css";
+import "./css/bootstrap-datepicker.min.css";
+import  "./css/cs-select.css";
+import  "./css/cs-skin-border.css";
+import  "./css/style.css";
+ReactDOM.render(<App />, document.getElementById('root'));
