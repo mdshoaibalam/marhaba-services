@@ -46,7 +46,7 @@ export default class Home extends Component {
     
                             </div>
                         </div>
-                        <div className="desc2 animate-box">
+                        <div className="desc2 animate-box col-sm-7 col-md-7">
                             <div className="col-sm-7 col-sm-push-1 col-md-7 col-md-push-1">
                                 <h3>Makkah - 600 MTRS & MADINA 200 MTRS</h3>
                                 <span className="price">&#8377; 63,000</span>

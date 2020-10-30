@@ -1351,13 +1351,17 @@ div.cs-select span {
 #fh5co-services,
 #fh5co-about,
 #fh5co-contact {
-  padding: 7em 0;
+  padding-top: 10em;
+  padding-bottom:7em;
+  padding-left:0;
+  padding-right:0;
+
 }
 @media screen and (max-width: 768px) {
   #fh5co-services,
   #fh5co-about,
   #fh5co-contact {
-    padding: 4em 0;
+    padding: 7em 0;
   }
 }
 
