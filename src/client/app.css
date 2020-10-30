@@ -62,8 +62,7 @@ body {
 
 /* for crousel css */
 div.neat {
-  font-size: 460px;
-  width: 1em;
+  font-size: 460px;  
   height: auto;
   overflow: hidden;
 }

@@ -33,7 +33,7 @@ export default class Home extends Component {
                             <div className="tabulation animate-box">
     
                                     
-                        <div style={{height:'290px',width:'380px'}}>                              
+                        <div style={{height:'290px'}}>                              
                                  <div className="neat">
     <div>
         <img style={{height:'440px',width:'459px'}} src={Macca1} />
