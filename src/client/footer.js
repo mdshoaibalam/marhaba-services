@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
- 
+import AITA from "./images/IATA.png";
+import TAFI from "./images/TAFI.png";
+import AIHUTOA from "./images/AIHUTOA.png";
   
 import ReactImage from './react.png';
 
@@ -25,9 +27,9 @@ export default class Footer extends Component {
               <div className="col-md-2 col-sm-2 col-xs-12 fh5co-footer-link">
                 <h3>Accreditations</h3>
                 <ul>
-                  <li><img src="src/client/images/IATA.png" style={{width:90,background:'white'}} /></li>
-                  <li><img src="src/client/images/TAFI.png" style={{width:90,background:'white'}} /></li>
-                  <li><img src="src/client/images/AIHUTOA.png" style={{width:90,background:'white'}} /></li>
+                  <li><img src={AITA} style={{width:90,background:'white'}} /></li>
+                  <li><img src={TAFI} style={{width:90,background:'white'}} /></li>
+                  <li><img src={AIHUTOA} style={{width:90,background:'white'}} /></li>
                  
                   
                 </ul>
