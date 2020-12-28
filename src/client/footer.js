@@ -79,7 +79,7 @@ export default class Footer extends Component {
                   <a href="#"><i className="icon-dribbble2" /></a>
                   <a href="#"><i className="icon-youtube" /></a>
                 </p>
-                <p>Copyright 2018 Marhaba Travels. All Rights Reserved. <br />Developed and maintain <i className="icon-heart3" /> by <a href="mailto:mdshoaib.alam22@gmail.com" target="_blank">Md Shoaib Alam</a> </p>
+                <p>Copyright 2020 Marhaba Services. All Rights Reserved. <br />Developed and maintain <i className="icon-heart3" /> by <a href="mailto:mdshoaib.alam22@gmail.com" target="_blank">Md Shoaib Alam</a> </p>
               </div>
             </div>
           </div>
