@@ -25,33 +25,73 @@ export default class Home extends Component {
         <div>
         <div className="fh5co-hero">
         <div className="fh5co-overlay"></div>
-        <div className="fh5co-cover" data-stellar-background-ratio="0.5" style={{backgroundImage: 'url(src/client/images/cover_bg_1.jpg)'}}>
+        <div className="fh5co-cover" data-stellar-background-ratio="0.5"  >
             <div className="desc">
                 <div className="container">
                     <div className="row">
-                        <div className="col-sm-5 col-md-5">
+                        <div className="col-xs-12">
                             <div className="tabulation animate-box">
     
                                     
-                        <div style={{height:'290px'}}>                              
-                                 <div className="neat">
+                        <div style={{height:'290px'}}>    
+                        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                <img  class="d-block w-100 fit-content" src={Macca1} alt="First slide" />
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5> </h5>
+                                    <p> </p>
+                                </div>
+                                </div>
+                                <div class="carousel-item">
+                                <img class="d-block w-100 fit-content" src={Safarmarwa} alt="Second slide" />
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5></h5>
+                                    <p></p>
+                                </div>
+                                </div>
+                                <div class="carousel-item">
+                                <img class="d-block w-100 fit-content" src={madina} alt="Third slide"/>
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5></h5>
+                                    <p></p>
+                                </div>
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                            </div>
+
+
+                                 {/* <div className="neat">
     <div>
-        <img style={{height:'440px',width:'459px'}} src={Macca1} />
-        <img style={{height:'440px',width:'459px'}} src={Safarmarwa}/>
-        <img style={{height:'440px',width:'459px'}} src={abraham}/>
-        <img style={{height:'440px',width:'459px'}} src={madina}/>
+        <img style={{height:'440px',width:'100%'}} src={Macca1} />
+        <img style={{height:'440px',width:'100%'}} src={Safarmarwa}/>
+        <img style={{height:'440px',width:'100%'}} src={abraham}/>
+        <img style={{height:'440px',width:'100%'}} src={madina}/>
     </div>
-</div>
+</div> */}
                                 </div>
     
                             </div>
                         </div>
-                        <div className="desc2 animate-box col-sm-7 col-md-7">
-                            <div className="col-sm-7 col-sm-push-1 col-md-7 col-md-push-1">
-                                <h3>Makkah - 600 MTRS & MADINA 200 MTRS</h3>
+                        <div className="desc2 animate-box col-xs-12">
+                            <div className="col-sm-12">
+                                {/* <h3>Makkah - 600 MTRS & MADINA 200 MTRS</h3>
                                 <span className="price">&#8377; 63,000</span>
-                             <p><a className="btn btn-primary btn-lg" href="#">Hurry ! </a></p>
-                             <h2>Exclusive Limited Time Offer</h2>
+                             <p><a className="btn btn-primary btn-lg" href="#">Hurry ! </a></p> */}
+                             
                             </div>
                             
                         </div>       
@@ -78,15 +118,15 @@ export default class Home extends Component {
                <a href="#"><img style={{height:'240px'}}  className="img-responsive" src={Macca1} alt="" /></a>
                <div className="blog-text">
                   <div className="prod-title">
-                     <h3><a href="#">Ramzan Umrah Package </a></h3>
+                     <h3><strong><a href="#">Ramzan Umrah Package </a></strong></h3>
                      <h4>(Delux Class)</h4>
                      <span className="posted_by">1st - 15th Ramzan</span> 
-                     <span className="comment"><a style={{color:'#F78536'}} href="">&#8377; 95,000/-</a></span>
+                     <span className="comment"><strong><a style={{color:'#F78536'}} href="">&#8377; 115,000/-</a></strong></span>
                      <span className="posted_by">15th - 30th Ramzan</span> 
-                     <span className="comment"><a style={{color:'#F78536'}} href="">&#8377; 1,15,000/-</a></span>
+                     <span className="comment"><strong> <a style={{color:'#F78536'}} href="">&#8377; 1,30,000/-</a></strong></span>
                      <span className="posted_by">Entire Ramzan</span> 
-                     <span className="comment"><a style={{color:'#F78536'}} href="">&#8377; 1,30,000/-</a></span>
-                      <p><a href="#">Learn More...</a></p>
+                     <span className="comment"><strong>  <a style={{color:'#F78536'}} href="">&#8377; 1,60,000/-</a></strong></span>
+                     
                   </div>
                </div>
             </div>
@@ -96,15 +136,15 @@ export default class Home extends Component {
                <a href="#"><img style={{height:'240px'}} className="img-responsive" src={Macca2} alt="Not available" /></a>
                <div className="blog-text">
                <div className="prod-title">
-                     <h3><a href="#">Ramzan Umrah Package </a></h3>
+                     <h3><strong><a href="#">Ramzan Umrah Package </a></strong></h3>
                      <h4>(Economy Class)</h4>
                      <span className="posted_by">1st - 15th Ramzan</span> 
-                     <span className="comment"><a style={{color:'#F78536'}} href="">&#8377; 78,000/-</a></span>
+                     <span className="comment"><strong><a style={{color:'#F78536'}} href="">&#8377; 95,000/-</a></strong></span>
                      <span className="posted_by">15th - 30th Ramzan</span> 
-                     <span className="comment"><a style={{color:'#F78536'}} href="">&#8377; 95,000/-</a></span>
+                     <span className="comment"><strong><a style={{color:'#F78536'}} href="">&#8377; 1,15,000/-</a></strong></span>
                      <span className="posted_by">Entire Ramzan</span> 
-                     <span className="comment"><a style={{color:'#F78536'}} href="">&#8377; 1,10,000/-</a></span>
-                      <p><a href="#">Learn More...</a></p>
+                     <span className="comment"><strong><a style={{color:'#F78536'}} href="">&#8377; 1,30,000/-</a></strong></span>
+                     
                   </div>
                </div>
             </div>
@@ -115,13 +155,13 @@ export default class Home extends Component {
                <a href="#"><img style={{height:'240px'}}  className="img-responsive" src={Macca3} alt="" /></a>
                <div className="blog-text">
                <div className="prod-title">
-                     <h3><a href="#">Umrah with Dubai Tour</a></h3>
+                     <h3><strong><a href="#">Umrah with Dubai Tour</a></strong></h3>
                      <h4>(5 Night stay at Hotel)</h4>
                      <span className="posted_by">Just pay extra </span> 
-                     <span className="comment"><a style={{color:'#F78536'}} href="">&#8377; 35,000/-</a></span>                      
+                     <span className="comment"><strong><a style={{color:'#F78536'}} href="">&#8377; 40,000/-</a></strong></span>                      
                      <p>Apply on both Delux and Economy Class</p>
                      <br /><br/>
-                      <p><a href="#">Learn More...</a></p>
+                     
                   </div>
                </div>
             </div>
@@ -147,7 +187,7 @@ export default class Home extends Component {
                         <span className="quote"><span><i className="icon-quotes-right"></i></span></span>
                         <p>&ldquo;We beleive in 100% customer Satisfaction . We provide best service from day 1 to till last day our experts will be with you. &rdquo;</p>
                     </blockquote>
-                    <p className="author">Ikhlaque Ahmed, CEO  <span className="subtext">Creative Director</span></p>
+                    <p className="author">AKHLAQUE AHMAD, CEO  <span className="subtext">Creative Director</span></p>
                 </div>
                 
             </div>
@@ -157,7 +197,7 @@ export default class Home extends Component {
                         <span className="quote"><span><i className="icon-quotes-right"></i></span></span>
                         <p>&ldquo;We are proud of the high standards we achieve and the value for money we offer. &rdquo;</p>
                     </blockquote>
-                    <p className="author">Khalid Hussain, Manager </p>
+                    <p className="author">KHALID HUSAIN, MANAGER </p>
                 </div>
                 
                 
@@ -168,7 +208,7 @@ export default class Home extends Component {
                         <span className="quote"><span><i className="icon-quotes-right"></i></span></span>
                         <p>&ldquo;The support of expert road crew is especially important in countries where the language and culture is very different from our own and our expert will be there with you each & every moment. &rdquo;</p>
                     </blockquote>
-                    <p className="author">Ikhlaque Ahmed, CEO </p>
+                    <p className="author">MD JAMALUDDIN, MANAGER </p>
                 </div>
                 
             </div>

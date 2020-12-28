@@ -28,8 +28,8 @@ export default class Footer extends Component {
                 <h3>Accreditations</h3>
                 <ul>
                   <li><img src={AITA} style={{width:90,background:'white'}} /></li>
-                  <li><img src={TAFI} style={{width:90,background:'white'}} /></li>
-                  <li><img src={AIHUTOA} style={{width:90,background:'white'}} /></li>
+                  {/* <li><img src={TAFI} style={{width:90,background:'white'}} /></li> */}
+                  {/* <li><img src={AIHUTOA} style={{width:90,background:'white'}} /></li> */}
                  
                   
                 </ul>
@@ -47,7 +47,7 @@ export default class Footer extends Component {
                 <h3>Services</h3>
                 <ul>
                   <li><a href="#">Passport assitance</a></li>
-                  <li><a href="#">Visa Stamping</a></li>
+                  <li><a href="#">Visa Stamping assitance</a></li>
                   <li><a href="#">Budget Travel</a></li>
                   <li><a href="#">Hajj and Umrah Package</a></li>
                   
@@ -65,8 +65,8 @@ export default class Footer extends Component {
               <div className="col-md-2 col-sm-2 col-xs-12 fh5co-footer-link">
                 <h3>Contact Us</h3>
                 <ul>
-                  <li>Email: <a href="#"> marhaba5974@gmail.com </a></li>
-                  <li><div>Mobile: </div><a href="#"><div> +91 9830406589,</div><div>+91 9831162488,</div> <div>+91 9831652207</div></a></li>
+                  <li>Email: <a href="mailto: marhaba5974@gmail.com"> marhaba5974@gmail.com </a></li>
+                  <li><div>Mobile: </div><a href="#"><div>+91 3323457149,</div><div> +91 9830406589,</div><div>+91 9831162488,</div> <div>+91 9831652207,</div><div>+91 7439572267</div></a></li>
                 </ul>
               </div>
             </div>

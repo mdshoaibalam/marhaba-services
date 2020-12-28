@@ -29,10 +29,10 @@ export default class Footer extends Component {
     <ul class="navbar-nav">
        
        							<li className="nav-item active font-effect"><Link to={'/home'}>Home</Link></li>
-							<li className="nav-item font-effect"><Link to={'/packages'}>package</Link></li>
+							<li className="nav-item font-effect"><Link to={'/packages'}>Package</Link></li>
 							<li className="nav-item font-effect"><Link to={'/ourservice'}>Our Service</Link></li>								
 							<li className="nav-item font-effect"><Link to={'/gallery'}>Gallery</Link></li>
-							<li className="nav-item font-effect"><Link to={'/contact'}>contact</Link></li>
+							<li className="nav-item font-effect"><Link to={'/contact'}>Contact</Link></li>
     </ul>
   </div>
 </nav>

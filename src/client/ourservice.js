@@ -33,7 +33,7 @@ export default class OurService extends Component {
                         <i className="icon-search"></i>
                     </span>
                     <div className="feature-copy">
-                        <h3>Visa</h3>
+                        <h3>Visa Assistance</h3>
                         <p>We help in Visa Stamping & Assistance</p>
                         <p><a href="#">Contact us for Learn More</a></p>
                     </div>
@@ -45,7 +45,7 @@ export default class OurService extends Component {
                         <i className="icon-wallet"></i>
                     </span>
                     <div className="feature-copy">
-                        <h3>ECNR</h3>
+                        <h3>ECNR Assistance</h3>
                         <p>We provide help in Imigration & Clearance ECNR</p>
                         <p><a href="#">Learn More</a></p>
                     </div>
@@ -74,7 +74,7 @@ export default class OurService extends Component {
                         <i className="icon-genius"></i>
                     </span>
                     <div className="feature-copy">
-                        <h3>Passport</h3>
+                        <h3>Passport Assistance</h3>
                         <p>We assist people in applying for passport whether its fresh/ re-new or expired .</p>
                         <p><a href="#">Learn More</a></p>
                     </div>
@@ -87,8 +87,8 @@ export default class OurService extends Component {
                         <i className="icon-chat"></i>
                     </span>
                     <div className="feature-copy">
-                        <h3>Explorer</h3>
-                        <p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
+                        <h3>Rail-Air Tickets</h3>
+                        <p>we help our client to book rail and air tickets (Domestic & International).</p>
                         <p><a href="#">Learn More</a></p>
                     </div>
                 </div>

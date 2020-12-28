@@ -15,8 +15,8 @@ export default class ContactUs extends Component {
     return (
       <div>
          <div>
-        <div id="fh5co-contact" className="fh5co-section-gray">
-          <div className="container">
+        <div id="fh5co-contact" className="fh5co-section-gray  ">
+          <div className="container bg-light">
             <div className="row">
               <div className="col-md-8 col-md-offset-2 text-center heading-section animate-box">
                 <h3>Contact Information</h3>
@@ -30,8 +30,8 @@ export default class ContactUs extends Component {
                   <ul className="contact-info">
                     <li><i className="icon-location-pin" />61B, G.J. Khan Road, Ground Floor Prime Residency, C-Block Opposite Alam Tannery, Kolkata - 700 039 (W.B)</li>
                     <li><i className="icon-phone2" />+91 9830406589 / +91 9831162488 / +91 9831652207</li>
-                    <li><i className="icon-mail" /><a href="#">marhaba5974@gmail.com</a></li>
-                    <li><i className="icon-globe2" /><a href="#">www.marhabatoursandservices.com</a></li>
+                    <li><i className="icon-mail" /><a href="mailto:marhaba5974@gmail.com">marhaba5974@gmail.com</a></li>
+                    <li><i className="icon-globe2" /><a href="https://marhaba-services.in/">https://marhaba-services.in</a></li>
                   </ul>
                 </div>
                 <div className="col-md-6">
@@ -63,7 +63,7 @@ export default class ContactUs extends Component {
           </div>
         </div>
          
-        <div id="map" className="fh5co-map" />
+        {/* <div id="map" className="fh5co-map" /> */}
       </div>
       </div>
     );
